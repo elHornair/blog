@@ -1,5 +1,6 @@
 ---
-title: A gentle introduction to markdown
+title: A gentle introduction to
+title2: markdown
 ---
 
 Properly formatting text can be hard. But it doesn't have to be.

@@ -29,7 +29,7 @@
               sm:text-3xl
             "
           >
-            {{ article.title }}
+            {{ article.fullTitle }}
           </h3>
         </NuxtLink>
         <nuxt-content

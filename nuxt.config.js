@@ -48,7 +48,10 @@ export default {
 
   hooks: {
     'content:file:beforeInsert': (document) => {
-      document.slug = slugify(document.title)
+      document.fullTitle = `${document.title}${
+        document.title2 ? ' ' + document.title2 : ''
+      }`
+      document.slug = slugify(document.fullTitle)
     },
   },
 

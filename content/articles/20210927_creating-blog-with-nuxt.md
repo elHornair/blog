@@ -1,5 +1,6 @@
 ---
-title: Creating a simple blog with Nuxt.js
+title: Creating a simple blog
+title2: with Nuxt.js
 ---
 
 This is just the summary of the article
