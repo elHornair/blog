@@ -50,10 +50,10 @@
               class="mr-6 sm:mr-0 sm:ml-6 hover:text-gray-900"
               >Articles</Nuxt-Link
             >
-            <Nuxt-Link
-              to="about"
+            <a
+              href="https://www.alainhorner.ch"
               class="mr-6 sm:mr-0 sm:ml-6 hover:text-gray-900"
-              >About</Nuxt-Link
+              >About</a
             >
             <a
               href="https://www.alainhorner.ch"
