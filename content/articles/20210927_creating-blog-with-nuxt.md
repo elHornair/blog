@@ -11,7 +11,17 @@ Intro test
 
 ## Some subtitle
 
-More text
+So, if you want to use Nuxt.js, you have to write a little bit of code:
+
+```js[nuxt.config.js]
+import slugify from '@sindresorhus/slugify';
+
+hooks: {
+  'content:file:beforeInsert': (document) => {
+    document.slug = slugify(document.title)
+  }
+}
+```
 
 ## Another subtitle
 
