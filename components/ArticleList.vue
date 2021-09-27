@@ -61,8 +61,14 @@
 export default {
   name: 'ArticleList',
   props: {
-    title: String,
-    articles: Array,
+    title: {
+      type: String,
+      default: '',
+    },
+    articles: {
+      type: Array,
+      default: () => [],
+    },
   },
   methods: {
     formatDate(date) {
