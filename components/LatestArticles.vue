@@ -16,20 +16,22 @@
     </h2>
     <ol>
       <li v-for="article in articles" :key="article.slug" class="mt-6">
-        <h3
-          class="
-            mt-5
-            sm:mt-8
-            text-2xl
-            leading-8
-            font-extrabold
-            tracking-tight
-            text-gray-900
-            sm:text-3xl
-          "
-        >
-          {{ article.title }}
-        </h3>
+        <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }">
+          <h3
+            class="
+              mt-5
+              sm:mt-8
+              text-2xl
+              leading-8
+              font-extrabold
+              tracking-tight
+              text-gray-900
+              sm:text-3xl
+            "
+          >
+            {{ article.title }}
+          </h3>
+        </NuxtLink>
         <nuxt-content
           :document="{ body: article.excerpt }"
           class="mt-2 text-md text-gray-800"
