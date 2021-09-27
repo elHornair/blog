@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <LatestArticles :articles="articles"></LatestArticles>
+    <ArticleList :articles="articles" title="Latest Articles"></ArticleList>
   </article>
 </template>
 

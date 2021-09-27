@@ -12,7 +12,7 @@
         md:mt-20
       "
     >
-      Latest articles
+      {{ title }}
     </h2>
     <ol>
       <li v-for="article in articles" :key="article.slug" class="mt-6">
@@ -57,8 +57,9 @@
 
 <script>
 export default {
-  name: 'LatestArticles',
+  name: 'ArticleList',
   props: {
+    title: String,
     articles: Array,
   },
 }
