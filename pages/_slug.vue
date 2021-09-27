@@ -34,18 +34,21 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
+  async asyncData({ $content, params, error }) {
     const slugParam = params.slug
 
     if (!slugParam) {
-      // TODO: show 404 page
-      console.error('oops, 404')
+      error({ statusCode: 404, message: 'Post not found' })
     }
 
     const queryRes = await $content('articles')
       .where({ slug: slugParam })
       .limit(1)
       .fetch()
+
+    if (queryRes.length < 1) {
+      error({ statusCode: 404, message: 'Post not found' })
+    }
 
     return {
       article: queryRes[0],
