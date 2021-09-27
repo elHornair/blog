@@ -15,18 +15,20 @@
       {{ title }}
     </h2>
     <ol>
-      <li v-for="article in articles" :key="article.slug" class="mt-6">
+      <li v-for="article in articles" :key="article.slug" class="mt-5 sm:mt-8">
+        <p class="text-sm text-gray-500">
+          {{ formatDate(article.createdAt) }}
+        </p>
         <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }">
           <h3
             class="
-              mt-5
-              sm:mt-8
               text-2xl
               leading-8
               font-extrabold
               tracking-tight
               text-gray-900
               sm:text-3xl
+              mt-1
             "
           >
             {{ article.fullTitle }}
@@ -61,6 +63,15 @@ export default {
   props: {
     title: String,
     articles: Array,
+  },
+  methods: {
+    formatDate(date) {
+      return new Date(date).toLocaleDateString('en', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+      })
+    },
   },
 }
 </script>
