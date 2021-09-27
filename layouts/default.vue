@@ -56,7 +56,7 @@
               >About</Nuxt-Link
             >
             <a
-              href="http://www.alainhorner.ch"
+              href="https://www.alainhorner.ch"
               class="mr-6 sm:mr-0 sm:ml-6 hover:text-gray-900"
               >Contact</a
             >
