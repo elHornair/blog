@@ -26,7 +26,7 @@
             class="
               hidden
               lg:block
-              text-sm text-gray-500
+              text-sm text-gray-600
               font-normal
               xl:border-l xl:border-gray-200
               ml-3
