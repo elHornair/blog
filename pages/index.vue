@@ -11,7 +11,7 @@
       "
     >
       <span class="block xl:inline">{{ page.title }}</span>
-      <span class="block text-blue-600 xl:inline">{{ page.title2 }}</span>
+      <span class="block text-blue-800 xl:inline">{{ page.title2 }}</span>
     </h1>
 
     <nuxt-content
@@ -40,8 +40,8 @@
             border border-transparent
             rounded-md
             text-white
-            bg-blue-600
-            hover:bg-blue-700
+            bg-blue-800
+            hover:bg-blue-900
             md:py-4 md:text-md md:px-10
           "
         >
@@ -62,7 +62,7 @@
             text-sm
             border border-transparent
             rounded-md
-            text-blue-700
+            text-blue-900
             bg-blue-100
             hover:bg-blue-200
             md:py-4 md:text-md md:px-10

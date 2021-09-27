@@ -4,7 +4,7 @@
       class="
         text-sm
         font-semibold
-        text-blue-600
+        text-blue-800
         uppercase
         tracking-wide
         mb-2
@@ -40,10 +40,10 @@
           class="
             inline-block
             mt-2
-            text-blue-600
+            text-blue-700
             font-medium
             text-md
-            hover:text-blue-500
+            hover:text-blue-900
           "
         >
           Read more
