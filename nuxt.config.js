@@ -12,7 +12,7 @@ export default {
     title: 'blog',
     htmlAttrs: {
       lang: 'en',
-      class: 'h-full antialiased font-sans bg-gray-50',
+      class: 'h-full antialiased font-sans bg-black',
     },
     meta: [
       { charset: 'utf-8' },
