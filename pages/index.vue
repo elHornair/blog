@@ -1,9 +1,21 @@
 <template>
-  <Tutorial/>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <nuxt-content :document="page" />
+    <LatestArticles :articles="articles"></LatestArticles>
+  </article>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+export default {
+  async asyncData({ $content }) {
+    const page = await $content('home').fetch()
+    const articles = await $content('articles').limit(5).fetch()
 
-export default Vue.extend({})
+    return {
+      page,
+      articles,
+    }
+  },
+}
 </script>
