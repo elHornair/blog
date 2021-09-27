@@ -1,3 +1,5 @@
+import slugify from '@sindresorhus/slugify'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -46,6 +48,12 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
+
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      document.slug = slugify(document.title)
+    },
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

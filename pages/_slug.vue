@@ -20,10 +20,13 @@ export default {
       console.error('oops, 404')
     }
 
-    const article = await $content('articles', slugParam).fetch()
+    const queryRes = await $content('articles')
+      .where({ slug: slugParam })
+      .limit(1)
+      .fetch()
 
     return {
-      article,
+      article: queryRes[0],
     }
   },
   methods: {
