@@ -1,0 +1,16 @@
+.nuxt-content {
+  // bluntly stolen from https://github.com/nuxt/content/blob/dev/packages/theme-docs/src/assets/css/main.css#L52
+  & .nuxt-content-highlight {
+    @apply relative;
+
+    /* Style filename span added by @nuxt/content */
+    & > .filename {
+      @apply absolute right-0 top-0 text-gray-100 z-10 font-mono text-sm tracking-tight leading-none mr-4 mt-3;
+    }
+
+    /* Add top padding to code blocks with filename */
+    & > .filename + pre[class*="language-"] {
+      @apply pt-8;
+    }
+  }
+}
