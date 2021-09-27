@@ -1,9 +1,7 @@
 ---
 title: Welcome
+title2: to my world
 ---
 
-This is some basic content
-
-## A subtitle
-
-Some *more* MD content
+Here I'm writing about thoughts and ideas that come to my mind, as well as discoveries that I made.
+It's usually related to technology, travelling, cooking and the current state of affairs.
