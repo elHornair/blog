@@ -9,8 +9,18 @@ Properly formatting text can be hard. But it doesn't have to be.
 Here is a little explainer of markdown and it's most important features:
 
 1. List item
-2. Also list item
 3. And so on
+4. la
+5. si
+6. mango
+7. lassi
+
+This is a link:
+[Click me](http://www.alainhorner.ch)
+
+This is **bold** and this is _italic_
+
+[This](https://www.google.ch) is another link
 
 ## Images
 But we can also have images:
