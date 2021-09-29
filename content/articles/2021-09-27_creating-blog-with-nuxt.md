@@ -3,8 +3,6 @@ title: Creating a simple blog
 title2: with Nuxt.js
 publishedAt: 2021-09-27
 summary: This is just the summary of the article
-mainImagePath: /2021-09-27_creating-blog-with-nuxt/nuxt_logo.png
-mainImageAlt: the logo of Nuxt.js consisting of two triangles and the text nuxt
 ---
 
 Now the full content of the article starts
