@@ -1,3 +1,8 @@
+.content-link {
+  @apply inline-block pb-1
+  text-blue-700 text-base font-medium
+}
+
 .nuxt-content {
   // bluntly stolen from https://github.com/nuxt/content/blob/dev/packages/theme-docs/src/assets/css/main.css#L52
   & .nuxt-content-highlight {

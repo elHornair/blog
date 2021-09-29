@@ -45,7 +45,7 @@
             text-white
             bg-blue-800
             hover:bg-blue-900
-            md:py-4 md:text-md md:px-10
+            md:py-4 md:text-base md:px-10
           "
         >
           Go Home
@@ -67,7 +67,7 @@
             text-blue-900
             bg-blue-100
             hover:bg-blue-200
-            md:py-4 md:text-md md:px-10
+            md:py-4 md:text-base md:px-10
           "
         >
           Contact me

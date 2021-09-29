@@ -36,19 +36,12 @@
         </NuxtLink>
         <nuxt-content
           :document="{ body: article.excerpt }"
-          class="mt-2 text-md text-gray-800"
+          class="mt-2 text-base text-gray-800"
         />
 
         <NuxtLink
           :to="{ name: 'slug', params: { slug: article.slug } }"
-          class="
-            inline-block
-            mt-2
-            text-blue-700
-            font-medium
-            text-md
-            hover:text-blue-900
-          "
+          class="mt-2 content-link"
         >
           Read more
         </NuxtLink>
