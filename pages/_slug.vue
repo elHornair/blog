@@ -31,7 +31,7 @@
           lg:mx-0
         "
       >
-        {{ formatDate(article.createdAt) }}
+        {{ formatDate(article.publishedAt) }}
       </p>
       <nuxt-content
         :document="article"

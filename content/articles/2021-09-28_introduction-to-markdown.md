@@ -1,7 +1,7 @@
 ---
 title: A gentle introduction to
 title2: markdown
-publishedDate: 2021-09-28
+publishedAt: 2021-09-28
 ---
 
 Properly formatting text can be hard. But it doesn't have to be.

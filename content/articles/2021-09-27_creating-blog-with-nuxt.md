@@ -1,7 +1,7 @@
 ---
 title: Creating a simple blog
 title2: with Nuxt.js
-publishedDate: 2021-09-27
+publishedAt: 2021-09-27
 ---
 
 This is just the summary of the article
