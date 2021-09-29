@@ -48,7 +48,7 @@
         </p>
       </div>
       <ContentImage
-        v-if="article.mainImage && article.mainImageAlt"
+        v-if="article.mainImagePath && article.mainImageAlt"
         :alt="article.mainImageAlt"
         :src="article.mainImagePath"
       ></ContentImage>
