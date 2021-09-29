@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="mb-8 sm:mb-12 md:mb-16 max-w-prose mx-auto">
+    <nav class="mb-8 sm:mb-12 md:mb-16 max-w-2xl mx-auto">
       <NuxtLink to="/" class="content-link"> Home </NuxtLink>
       / <NuxtLink to="articles" class="content-link"> Articles </NuxtLink>
       /
@@ -8,7 +8,7 @@
     </nav>
 
     <article>
-      <div class="max-w-prose mx-auto">
+      <div class="max-w-2xl mx-auto">
         <h1
           class="
             text-4xl
@@ -54,7 +54,7 @@
       ></ContentImage>
       <nuxt-content
         :document="article"
-        class="prose lg:prose-lg mt-10 sm:mt-18 max-w-prose mx-auto"
+        class="prose md:prose-md lg:prose-lg mt-10 sm:mt-18 max-w-2xl mx-auto"
       />
     </article>
   </div>
