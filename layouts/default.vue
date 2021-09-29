@@ -20,7 +20,9 @@
       >
         <div class="flex items-center flex-wrap sm:flex-nowrap">
           <NuxtLink to="/" class="flex-none text-gray-900">
-            <span class="text-lg">Alain's Blog</span>
+            <span class="text-lg"
+              >Alain<span class="text-blue-800">'</span>s Blog</span
+            >
           </NuxtLink>
           <p
             class="
