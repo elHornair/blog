@@ -31,8 +31,24 @@
           lg:mx-0
         "
       >
+        {{ article.summary }}
+      </p>
+
+      <p
+        class="
+          mt-3
+          text-base text-gray-600
+          sm:mt-5 sm:text-lg sm:mx-auto
+          md:mt-5 md:text-xl
+          lg:mx-0
+        "
+      >
         {{ formatDate(article.publishedAt) }}
       </p>
+      <ContentImage
+        :alt="article.mainImageAlt"
+        :src="article.mainImagePath"
+      ></ContentImage>
       <nuxt-content
         :document="article"
         class="prose lg:prose-lg mt-10 sm:mt-18"

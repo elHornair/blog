@@ -34,11 +34,7 @@
             {{ article.fullTitle }}
           </h3>
         </NuxtLink>
-        <nuxt-content
-          :document="{ body: article.excerpt }"
-          class="mt-2 text-base text-gray-800"
-        />
-
+        <p class="mt-2 text-base text-gray-800">{{ article.summary }}</p>
         <NuxtLink
           :to="{ name: 'slug', params: { slug: article.slug } }"
           class="mt-2 content-link"

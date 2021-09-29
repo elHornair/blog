@@ -1,7 +1,7 @@
 <template>
   <figure>
     <img :src="src" :alt="alt" :title="title" />
-    <figcaption>{{ title }}</figcaption>
+    <figcaption v-if="title">{{ title }}</figcaption>
   </figure>
 </template>
 

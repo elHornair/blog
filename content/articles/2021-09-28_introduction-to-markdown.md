@@ -2,10 +2,10 @@
 title: A gentle introduction to
 title2: markdown
 publishedAt: 2021-09-28
+summary: Properly formatting text can be hard. But it doesn't have to be.
+mainImagePath: /2021-09-28_introduction-to-markdown/screenshot_markdown_editing.png
+mainImageAlt: markdown editor showing raw markdown text and rendered markdown text side to side
 ---
-
-Properly formatting text can be hard. But it doesn't have to be.
-<!--more-->
 
 Here is a little explainer of markdown and it's most important features:
 
