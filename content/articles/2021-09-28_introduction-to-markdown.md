@@ -16,7 +16,7 @@ Here is a little explainer of markdown and it's most important features:
 ## Images
 But we can also have images:
 
-![markdown editor showing raw markdown text and rendered markdown text side to side](/20210928_introduction-to-markdown/screenshot_markdown_editing.png "Markdown editor example")
+![markdown editor showing raw markdown text and rendered markdown text side to side](/2021-09-28_introduction-to-markdown/screenshot_markdown_editing.png "Markdown editor example")
 
 In the image you can see the split screen from my markdown editor.
 
@@ -24,7 +24,7 @@ In the image you can see the split screen from my markdown editor.
 There is a better way though:
 
 <content-image
-  src="/20210928_introduction-to-markdown/screenshot_markdown_editing.png"
+  src="/2021-09-28_introduction-to-markdown/screenshot_markdown_editing.png"
   alt="markdown editor showing raw markdown text and rendered markdown text side to side"
   title="Markdown editor example">
 </content-image>
