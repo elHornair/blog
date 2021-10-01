@@ -70,7 +70,7 @@ export default {
     }
 
     const queryRes = await $content('articles')
-      .where({ slug: slugParam })
+      .where({ slug: slugParam, draft: { $ne: true } })
       .limit(1)
       .fetch()
 

@@ -3,6 +3,7 @@ title: Creating a simple blog
 title2: with Nuxt.js
 publishedAt: 2021-09-27
 summary: This is just the summary of the article
+draft: true
 ---
 
 Now the full content of the article starts

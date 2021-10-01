@@ -81,7 +81,10 @@
 export default {
   async asyncData({ $content }) {
     const page = await $content('home').fetch()
-    const articles = await $content('articles').limit(5).fetch()
+    const articles = await $content('articles')
+      .where({ draft: { $ne: true } })
+      .limit(5)
+      .fetch()
 
     return {
       page,
